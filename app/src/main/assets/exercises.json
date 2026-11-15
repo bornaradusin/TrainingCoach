@@ -1,0 +1,990 @@
+{
+ "machine": "Ironman IM-309",
+ "exercises": [
+  {
+   "id": "chest_press",
+   "name": "Chest press",
+   "station": "press",
+   "attachment": "Press arms, handles",
+   "muscles": [
+    "Chest"
+   ],
+   "secondary": [
+    "Front shoulders",
+    "Triceps"
+   ],
+   "setup": [
+    "Sit with your back flat against the backrest.",
+    "Set the seat so the handles are level with the middle of your chest.",
+    "Hook your feet behind the lower rollers or keep them flat."
+   ],
+   "steps": [
+    "Grip the handles, elbows slightly below your shoulders.",
+    "Push forward until your arms are almost straight.",
+    "Pause, then let the handles come back slowly until you feel a stretch in your chest."
+   ],
+   "tips": [
+    "Don't lock your elbows at the front.",
+    "Keep your shoulder blades back against the pad; don't let your shoulders roll forward."
+   ],
+   "reps": "8-12",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Chest press cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -82,
+     "th": 180,
+     "sh": 90,
+     "ua": 15,
+     "fa": 180
+    },
+    "end": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -82,
+     "th": 180,
+     "sh": 90,
+     "ua": 176,
+     "fa": 178
+    },
+    "lever": "PRESS",
+    "attach": "hands"
+   }
+  },
+  {
+   "id": "butterfly",
+   "name": "Butterfly (pec deck)",
+   "station": "press",
+   "attachment": "Press arms, butterfly pads",
+   "muscles": [
+    "Chest"
+   ],
+   "secondary": [
+    "Front shoulders"
+   ],
+   "setup": [
+    "Sit with your back against the backrest.",
+    "Set the seat so your upper arms are level with your shoulders when your forearms are on the pads.",
+    "Elbows bent about 90°, forearms flat against the pads."
+   ],
+   "steps": [
+    "Squeeze the pads together in front of your chest, leading with your elbows.",
+    "Hold for a moment with your chest tight.",
+    "Let the pads open slowly until your elbows are just behind your body."
+   ],
+   "tips": [
+    "Push with your forearms and elbows, not your hands.",
+    "Keep your back on the pad and your chest up."
+   ],
+   "reps": "10-15",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Butterfly (pec deck) cable machine how to",
+   "anim": {
+    "view": "front",
+    "start": {
+     "hx": 50,
+     "hy": 61,
+     "torso": -90,
+     "th": 90,
+     "ths": 0.25,
+     "sh": 90,
+     "ua": 0,
+     "fa": -90,
+     "uas": 1.0
+    },
+    "end": {
+     "hx": 50,
+     "hy": 61,
+     "torso": -90,
+     "th": 90,
+     "ths": 0.25,
+     "sh": 90,
+     "ua": 0,
+     "fa": -90,
+     "uas": 0.18
+    },
+    "pads": true
+   }
+  },
+  {
+   "id": "reverse_butterfly",
+   "name": "Reverse butterfly",
+   "station": "press",
+   "attachment": "Press arms, butterfly pads",
+   "muscles": [
+    "Rear shoulders"
+   ],
+   "secondary": [
+    "Upper back"
+   ],
+   "setup": [
+    "Sit facing the backrest, chest against it.",
+    "Reach forward and place the back of your upper arms against the pads, elbows bent."
+   ],
+   "steps": [
+    "Push the pads back and out with your elbows until your arms are in line with your shoulders.",
+    "Squeeze your shoulder blades together.",
+    "Return slowly."
+   ],
+   "tips": [
+    "Use a light weight; the rear shoulders are small muscles.",
+    "Don't shrug your shoulders up."
+   ],
+   "reps": "12-15",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Reverse butterfly cable machine how to",
+   "anim": {
+    "view": "front",
+    "start": {
+     "hx": 50,
+     "hy": 61,
+     "torso": -90,
+     "th": 90,
+     "ths": 0.25,
+     "sh": 90,
+     "ua": 0,
+     "fa": -90,
+     "uas": 0.18
+    },
+    "end": {
+     "hx": 50,
+     "hy": 61,
+     "torso": -90,
+     "th": 90,
+     "ths": 0.25,
+     "sh": 90,
+     "ua": 0,
+     "fa": -90,
+     "uas": 1.0
+    },
+    "pads": true
+   }
+  },
+  {
+   "id": "lat_pulldown",
+   "name": "Lat pulldown",
+   "station": "high",
+   "attachment": "Lat bar, wide grip",
+   "muscles": [
+    "Back (lats)"
+   ],
+   "secondary": [
+    "Biceps",
+    "Rear shoulders"
+   ],
+   "setup": [
+    "Sit facing the front with your knees under the upper rollers.",
+    "Reach up and take the lat bar with a wide overhand grip."
+   ],
+   "steps": [
+    "Pull the bar down in front of you to the top of your chest.",
+    "Drive your elbows down and back, chest up.",
+    "Let the bar rise slowly until your arms are straight."
+   ],
+   "tips": [
+    "Don't pull the bar behind your neck.",
+    "Lean back only a little; don't swing your body to move the weight."
+   ],
+   "reps": "8-12",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Lat pulldown cable machine how to",
+   "anim": {
+    "view": "front",
+    "start": {
+     "hx": 50,
+     "hy": 61,
+     "torso": -90,
+     "th": 90,
+     "ths": 0.25,
+     "sh": 90,
+     "ua": -58,
+     "fa": -82
+    },
+    "end": {
+     "hx": 50,
+     "hy": 61,
+     "torso": -90,
+     "th": 90,
+     "ths": 0.25,
+     "sh": 90,
+     "ua": 28,
+     "fa": -96
+    },
+    "cable": "HP",
+    "bar": true
+   }
+  },
+  {
+   "id": "close_grip_pulldown",
+   "name": "Close-grip pulldown",
+   "station": "high",
+   "attachment": "Lat bar, close underhand grip",
+   "muscles": [
+    "Back (lats)"
+   ],
+   "secondary": [
+    "Biceps"
+   ],
+   "setup": [
+    "Sit facing the front with your knees under the upper rollers.",
+    "Take the middle of the lat bar with an underhand grip, hands shoulder-width or closer."
+   ],
+   "steps": [
+    "Pull the bar down to your upper chest, elbows tight to your sides.",
+    "Squeeze your back at the bottom.",
+    "Return slowly to straight arms."
+   ],
+   "tips": [
+    "Keep your chest up and your elbows in front of your body."
+   ],
+   "reps": "8-12",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Close-grip pulldown cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -95,
+     "th": 180,
+     "sh": 90,
+     "ua": -118,
+     "fa": -115
+    },
+    "end": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -84,
+     "th": 180,
+     "sh": 90,
+     "ua": 62,
+     "fa": -115
+    },
+    "cable": "HP",
+    "attach": "hands"
+   }
+  },
+  {
+   "id": "straight_arm_pulldown",
+   "name": "Straight-arm pulldown",
+   "station": "high",
+   "attachment": "Lat bar or rope",
+   "muscles": [
+    "Back (lats)"
+   ],
+   "secondary": [
+    "Triceps (long head)",
+    "Core"
+   ],
+   "setup": [
+    "Stand facing the machine under the lat bar.",
+    "Take the bar shoulder-width, arms straight and in front of you at eye level.",
+    "Hinge slightly at the hips."
+   ],
+   "steps": [
+    "Keeping your arms straight, sweep the bar down to your thighs.",
+    "Squeeze your back at the bottom.",
+    "Let it rise slowly back to eye level."
+   ],
+   "tips": [
+    "Only a soft bend in the elbows; the movement is at the shoulders."
+   ],
+   "reps": "12-15",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Straight-arm pulldown cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 44,
+     "hy": 63,
+     "torso": -80,
+     "th": 90,
+     "sh": 90,
+     "ua": -25,
+     "fa": -25
+    },
+    "end": {
+     "hx": 44,
+     "hy": 63,
+     "torso": -80,
+     "th": 90,
+     "sh": 90,
+     "ua": 80,
+     "fa": 80
+    },
+    "cable": "HP",
+    "attach": "hands"
+   }
+  },
+  {
+   "id": "triceps_pushdown",
+   "name": "Triceps pushdown",
+   "station": "high",
+   "attachment": "Lat bar or short bar",
+   "muscles": [
+    "Triceps"
+   ],
+   "secondary": [],
+   "setup": [
+    "Stand facing the machine under the high pulley.",
+    "Grip the bar overhand, hands about shoulder-width.",
+    "Tuck your elbows to your sides."
+   ],
+   "steps": [
+    "Push the bar down until your arms are straight.",
+    "Squeeze the backs of your arms.",
+    "Let it come up slowly until your forearms pass horizontal."
+   ],
+   "tips": [
+    "Your upper arms stay still at your sides; only your forearms move."
+   ],
+   "reps": "10-15",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Triceps pushdown cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 44,
+     "hy": 63,
+     "torso": -86,
+     "th": 90,
+     "sh": 90,
+     "ua": 85,
+     "fa": -15
+    },
+    "end": {
+     "hx": 44,
+     "hy": 63,
+     "torso": -86,
+     "th": 90,
+     "sh": 90,
+     "ua": 85,
+     "fa": 88
+    },
+    "cable": "HP",
+    "attach": "hands"
+   }
+  },
+  {
+   "id": "rope_pushdown",
+   "name": "Rope pushdown",
+   "station": "high",
+   "attachment": "Triceps rope",
+   "muscles": [
+    "Triceps"
+   ],
+   "secondary": [],
+   "setup": [
+    "Clip the rope to the high pulley.",
+    "Stand facing the machine and hold the rope ends, thumbs up, elbows at your sides."
+   ],
+   "steps": [
+    "Push down and spread the rope ends apart at the bottom.",
+    "Return slowly to the start."
+   ],
+   "tips": [
+    "Spreading the rope at the bottom gives a stronger squeeze."
+   ],
+   "reps": "10-15",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Rope pushdown cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 44,
+     "hy": 63,
+     "torso": -86,
+     "th": 90,
+     "sh": 90,
+     "ua": 85,
+     "fa": -15
+    },
+    "end": {
+     "hx": 44,
+     "hy": 63,
+     "torso": -86,
+     "th": 90,
+     "sh": 90,
+     "ua": 85,
+     "fa": 92
+    },
+    "cable": "HP",
+    "attach": "hands"
+   }
+  },
+  {
+   "id": "kneeling_crunch",
+   "name": "Kneeling cable crunch",
+   "station": "high",
+   "attachment": "Triceps rope or ab harness",
+   "muscles": [
+    "Abs"
+   ],
+   "secondary": [
+    "Obliques"
+   ],
+   "setup": [
+    "Clip the rope (or ab harness) to the high pulley.",
+    "Kneel facing the machine and hold the rope beside your head."
+   ],
+   "steps": [
+    "Curl your chest down towards your knees, rounding your back.",
+    "Squeeze your abs at the bottom.",
+    "Come up slowly, keeping tension."
+   ],
+   "tips": [
+    "Move with your abs, not your arms or hips: your hips stay still."
+   ],
+   "reps": "12-20",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Kneeling cable crunch cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 32,
+     "hy": 79,
+     "torso": -78,
+     "th": 90,
+     "sh": 180,
+     "ua": -115,
+     "fa": 55
+    },
+    "end": {
+     "hx": 32,
+     "hy": 79,
+     "torso": 6,
+     "th": 90,
+     "sh": 180,
+     "ua": -45,
+     "fa": 110
+    },
+    "cable": "HP",
+    "attach": "neck"
+   }
+  },
+  {
+   "id": "seated_crunch",
+   "name": "Seated cable crunch",
+   "station": "mid",
+   "attachment": "Triceps rope or ab harness",
+   "muscles": [
+    "Abs"
+   ],
+   "secondary": [],
+   "setup": [
+    "Clip the rope (or ab harness) to the pulley at the top of the backrest.",
+    "Sit with your back to the backrest and hold the rope ends over your shoulders."
+   ],
+   "steps": [
+    "Curl your chest down and forward towards your knees.",
+    "Squeeze your abs.",
+    "Uncurl slowly back to the pad."
+   ],
+   "tips": [
+    "Breathe out as you crunch.",
+    "Keep your hips on the seat."
+   ],
+   "reps": "12-20",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Seated cable crunch cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -82,
+     "th": 180,
+     "sh": 90,
+     "ua": 150,
+     "fa": -30
+    },
+    "end": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -140,
+     "th": 180,
+     "sh": 90,
+     "ua": 200,
+     "fa": -60
+    },
+    "cable": "MP",
+    "attach": "hands"
+   }
+  },
+  {
+   "id": "preacher_curl",
+   "name": "Preacher curl",
+   "station": "low",
+   "attachment": "Short bar",
+   "muscles": [
+    "Biceps"
+   ],
+   "secondary": [
+    "Forearms"
+   ],
+   "setup": [
+    "Clip the short bar to the low pulley at the front.",
+    "Sit facing the front with your upper arms resting down the preacher pad.",
+    "Take the bar underhand, arms almost straight."
+   ],
+   "steps": [
+    "Curl the bar up towards your shoulders.",
+    "Squeeze at the top.",
+    "Lower slowly until your arms are nearly straight."
+   ],
+   "tips": [
+    "Keep the backs of your arms on the pad all the way.",
+    "Don't fully lock out at the bottom."
+   ],
+   "reps": "8-12",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Preacher curl cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -100,
+     "th": 180,
+     "sh": 90,
+     "ua": 135,
+     "fa": 145
+    },
+    "end": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -100,
+     "th": 180,
+     "sh": 90,
+     "ua": 135,
+     "fa": -95
+    },
+    "cable": "LP",
+    "attach": "hands"
+   }
+  },
+  {
+   "id": "standing_curl",
+   "name": "Standing cable curl",
+   "station": "low",
+   "attachment": "Short bar",
+   "muscles": [
+    "Biceps"
+   ],
+   "secondary": [
+    "Forearms"
+   ],
+   "setup": [
+    "Clip the short bar to the low pulley.",
+    "Stand facing the machine, feet hip-width, bar underhand at your thighs."
+   ],
+   "steps": [
+    "Curl the bar up to your shoulders, elbows fixed at your sides.",
+    "Lower it slowly."
+   ],
+   "tips": [
+    "Don't swing your back to lift the weight."
+   ],
+   "reps": "8-12",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Standing cable curl cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 26,
+     "hy": 63,
+     "torso": -90,
+     "th": 90,
+     "sh": 90,
+     "ua": 88,
+     "fa": 82
+    },
+    "end": {
+     "hx": 26,
+     "hy": 63,
+     "torso": -90,
+     "th": 90,
+     "sh": 90,
+     "ua": 95,
+     "fa": -65
+    },
+    "cable": "LP",
+    "attach": "hands"
+   }
+  },
+  {
+   "id": "upright_row",
+   "name": "Upright row",
+   "station": "low",
+   "attachment": "Short bar",
+   "muscles": [
+    "Shoulders",
+    "Traps"
+   ],
+   "secondary": [
+    "Biceps"
+   ],
+   "setup": [
+    "Clip the short bar to the low pulley.",
+    "Stand facing the machine, holding the bar overhand at your thighs, hands a bit narrower than shoulder-width."
+   ],
+   "steps": [
+    "Pull the bar straight up close to your body until your elbows are at shoulder height.",
+    "Lower slowly."
+   ],
+   "tips": [
+    "Lead with your elbows; stop at shoulder height if your shoulders complain."
+   ],
+   "reps": "10-12",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Upright row cable machine how to",
+   "anim": {
+    "view": "front",
+    "start": {
+     "hx": 50,
+     "hy": 63,
+     "torso": -90,
+     "th": 92,
+     "sh": 90,
+     "ua": 100,
+     "fa": 95
+    },
+    "end": {
+     "hx": 50,
+     "hy": 63,
+     "torso": -90,
+     "th": 92,
+     "sh": 90,
+     "ua": -12,
+     "fa": 186
+    },
+    "cable": "LP",
+    "bar": true,
+    "barw": 10
+   }
+  },
+  {
+   "id": "shrug",
+   "name": "Cable shrug",
+   "station": "low",
+   "attachment": "Short bar",
+   "muscles": [
+    "Traps"
+   ],
+   "secondary": [],
+   "setup": [
+    "Clip the short bar to the low pulley.",
+    "Stand facing the machine with the bar at your thighs, arms straight."
+   ],
+   "steps": [
+    "Lift your shoulders straight up towards your ears.",
+    "Hold for a second, then lower slowly."
+   ],
+   "tips": [
+    "Don't roll your shoulders; just up and down.",
+    "Keep your arms straight."
+   ],
+   "reps": "12-15",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Cable shrug cable machine how to",
+   "anim": {
+    "view": "front",
+    "start": {
+     "hx": 50,
+     "hy": 63,
+     "torso": -90,
+     "th": 92,
+     "sh": 90,
+     "ua": 96,
+     "fa": 92
+    },
+    "end": {
+     "hx": 50,
+     "hy": 63,
+     "torso": -90,
+     "th": 92,
+     "sh": 90,
+     "ua": 96,
+     "fa": 92,
+     "sy": -3.5
+    },
+    "cable": "LP",
+    "bar": true,
+    "barw": 16
+   }
+  },
+  {
+   "id": "seated_row",
+   "name": "Seated low row",
+   "station": "low",
+   "attachment": "Short bar",
+   "muscles": [
+    "Back (mid)"
+   ],
+   "secondary": [
+    "Lats",
+    "Biceps",
+    "Rear shoulders"
+   ],
+   "setup": [
+    "Clip the short bar to the low pulley at the front.",
+    "Sit on the seat facing the front and take the bar with arms straight."
+   ],
+   "steps": [
+    "Pull the bar to your stomach, driving your elbows back.",
+    "Squeeze your shoulder blades together.",
+    "Let your arms straighten slowly."
+   ],
+   "tips": [
+    "Keep your back straight; don't rock back and forth."
+   ],
+   "reps": "8-12",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Seated low row cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -105,
+     "th": 180,
+     "sh": 90,
+     "ua": 150,
+     "fa": 150
+    },
+    "end": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -88,
+     "th": 180,
+     "sh": 90,
+     "ua": 65,
+     "fa": 180
+    },
+    "cable": "LP",
+    "attach": "hands"
+   }
+  },
+  {
+   "id": "front_raise",
+   "name": "Front raise",
+   "station": "low",
+   "attachment": "Short bar",
+   "muscles": [
+    "Front shoulders"
+   ],
+   "secondary": [],
+   "setup": [
+    "Clip the short bar to the low pulley.",
+    "Stand with your back to the machine, the cable between your feet, bar at your thighs."
+   ],
+   "steps": [
+    "Raise the bar in front of you with straight arms to shoulder height.",
+    "Lower it slowly."
+   ],
+   "tips": [
+    "A slight bend in the elbows is fine; don't lean back."
+   ],
+   "reps": "10-15",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Front raise cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 22,
+     "hy": 63,
+     "torso": -90,
+     "th": 90,
+     "sh": 90,
+     "ua": 92,
+     "fa": 92
+    },
+    "end": {
+     "hx": 22,
+     "hy": 63,
+     "torso": -90,
+     "th": 90,
+     "sh": 90,
+     "ua": 180,
+     "fa": 180
+    },
+    "cable": "LP",
+    "attach": "hands"
+   }
+  },
+  {
+   "id": "leg_extension",
+   "name": "Leg extension",
+   "station": "leg",
+   "attachment": "Leg rollers",
+   "muscles": [
+    "Quads (front of thighs)"
+   ],
+   "secondary": [],
+   "setup": [
+    "Sit on the seat with your back against the backrest.",
+    "Hook your ankles behind the lower roller, knees at the edge of the seat."
+   ],
+   "steps": [
+    "Straighten your legs until they're level.",
+    "Squeeze your thighs at the top.",
+    "Lower slowly."
+   ],
+   "tips": [
+    "Hold the seat edges or the handles.",
+    "Don't swing; control the way down."
+   ],
+   "reps": "10-15",
+   "bodyweight": false,
+   "unilateral": false,
+   "youtube": "Leg extension cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -82,
+     "th": 180,
+     "sh": 90,
+     "ua": 90,
+     "fa": 150
+    },
+    "end": {
+     "hx": 64,
+     "hy": 60,
+     "torso": -82,
+     "th": 180,
+     "sh": 176,
+     "ua": 90,
+     "fa": 150
+    },
+    "roller": "ankle",
+    "pivot": "knee"
+   }
+  },
+  {
+   "id": "leg_curl",
+   "name": "Standing leg curl",
+   "station": "leg",
+   "attachment": "Leg rollers",
+   "muscles": [
+    "Hamstrings"
+   ],
+   "secondary": [
+    "Calves"
+   ],
+   "setup": [
+    "Stand facing the seat, holding the backrest for balance.",
+    "Put one leg behind the lower roller so it sits just above your heel."
+   ],
+   "steps": [
+    "Curl your heel up towards your bottom.",
+    "Squeeze, then lower slowly.",
+    "Do all reps, then switch legs."
+   ],
+   "tips": [
+    "Keep your hips still and your standing knee soft."
+   ],
+   "reps": "10-15",
+   "bodyweight": false,
+   "unilateral": true,
+   "youtube": "Standing leg curl cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 38,
+     "hy": 63,
+     "torso": -88,
+     "th": 92,
+     "sh": 90,
+     "th2": 90,
+     "sh2": 90,
+     "ua": 60,
+     "fa": 10
+    },
+    "end": {
+     "hx": 38,
+     "hy": 63,
+     "torso": -88,
+     "th": 100,
+     "sh": 200,
+     "th2": 90,
+     "sh2": 90,
+     "ua": 60,
+     "fa": 10
+    },
+    "roller": "ankle",
+    "pivot": "knee"
+   }
+  },
+  {
+   "id": "sit_up",
+   "name": "Sit-up",
+   "station": "bench",
+   "attachment": "Lower leg roller (bodyweight)",
+   "muscles": [
+    "Abs"
+   ],
+   "secondary": [
+    "Hip flexors"
+   ],
+   "setup": [
+    "Lie on your back on the floor in front of the machine.",
+    "Bend your knees and hook your feet under the lower leg roller.",
+    "Cross your arms on your chest."
+   ],
+   "steps": [
+    "Curl up until your chest is close to your knees.",
+    "Lower yourself back down slowly, one vertebra at a time."
+   ],
+   "tips": [
+    "Breathe out on the way up.",
+    "Don't pull on your neck; for an easier version, only lift your shoulders (crunch)."
+   ],
+   "reps": "10-20",
+   "bodyweight": true,
+   "unilateral": false,
+   "youtube": "Sit-up cable machine how to",
+   "anim": {
+    "view": "side",
+    "start": {
+     "hx": 30,
+     "hy": 92,
+     "torso": 180,
+     "th": -56,
+     "sh": 41,
+     "ua": 150,
+     "fa": -40
+    },
+    "end": {
+     "hx": 30,
+     "hy": 92,
+     "torso": -62,
+     "th": -56,
+     "sh": 41,
+     "ua": 40,
+     "fa": -110
+    }
+   }
+  }
+ ]
+}
