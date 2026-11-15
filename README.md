@@ -9,8 +9,6 @@ An Android training app for the **Ironman IM-309** single-station home multi gym
 - The weight stack as it is on the IM-309 (3.5 kg top plate + 11 × 5.7 kg), changeable, in kg or lb
 - Updates itself from GitHub releases
 
-See the [wiki](../../wiki) for how to use it.
-
 ## The exercises and animations
 
 `app/src/main/assets/exercises.json` is made by `tools/animations/exercises.py`. `tools/animations/render.py` draws every animation's start, middle and end on the machine for checking:

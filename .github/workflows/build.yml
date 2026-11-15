@@ -13,10 +13,7 @@ name: Build
 on:
   push:
     paths-ignore:
-      - "wiki/**"
-      - ".github/screenshots/**"
       - "tools/**"
-      - ".github/workflows/wiki.yml"
   workflow_dispatch:
 
 permissions:

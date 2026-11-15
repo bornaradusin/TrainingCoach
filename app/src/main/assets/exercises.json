@@ -1,5 +1,437 @@
 {
  "machine": "Ironman IM-309",
+ "side": {
+  "pulleys": {
+   "HP": [
+    73,
+    186
+   ],
+   "LP": [
+    8,
+    9
+   ],
+   "MP": [
+    121,
+    138
+   ],
+   "BEAM": [
+    176,
+    158
+   ]
+  },
+  "pivots": {
+   "PRESS": [
+    97,
+    152
+   ],
+   "LEG": [
+    43,
+    60
+   ]
+  },
+  "stack": {
+   "x": 156,
+   "y": 6,
+   "w": 30,
+   "plates": 12,
+   "h": 3.2,
+   "gap": 0.35,
+   "top": [
+    171,
+    150
+   ]
+  },
+  "rest": {
+   "LEG": [
+    43,
+    18
+   ]
+  },
+  "shapes": [
+   {
+    "t": "rect",
+    "x": -2,
+    "y": 0,
+    "w": 198,
+    "h": 4,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "rect",
+    "x": -4,
+    "y": 0,
+    "w": 12,
+    "h": 6,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "rect",
+    "x": 180,
+    "y": 0,
+    "w": 16,
+    "h": 6,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "rect",
+    "x": 152,
+    "y": 4,
+    "w": 3.5,
+    "h": 148,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "rect",
+    "x": 186.5,
+    "y": 4,
+    "w": 3.5,
+    "h": 148,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     171,
+     8
+    ],
+    "b": [
+     171,
+     150
+    ],
+    "w": 1.2,
+    "c": "chrome",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     90,
+     4
+    ],
+    "b": [
+     131,
+     172
+    ],
+    "w": 6,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     60,
+     201
+    ],
+    "b": [
+     190,
+     152
+    ],
+    "w": 6,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     97,
+     150
+    ],
+    "b": [
+     97,
+     191
+    ],
+    "w": 5,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     73,
+     196
+    ],
+    "b": [
+     73,
+     190
+    ],
+    "w": 2,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     35,
+     4
+    ],
+    "b": [
+     35,
+     82
+    ],
+    "w": 5,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     35,
+     42
+    ],
+    "b": [
+     86,
+     42
+    ],
+    "w": 4,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     70,
+     42
+    ],
+    "b": [
+     80,
+     4
+    ],
+    "w": 4,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     43,
+     60
+    ],
+    "b": [
+     52,
+     42
+    ],
+    "w": 3,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "rrect",
+    "x": 52,
+    "y": 50,
+    "w": 37,
+    "h": 8,
+    "r": 3,
+    "c": "pad",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     100,
+     58
+    ],
+    "b": [
+     118,
+     133
+    ],
+    "w": 10,
+    "c": "pad",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     22,
+     75
+    ],
+    "b": [
+     48,
+     91
+    ],
+    "w": 8,
+    "c": "pad",
+    "l": "back"
+   },
+   {
+    "t": "circle",
+    "x": 43,
+    "y": 60,
+    "r": 2.2,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "circle",
+    "x": 73,
+    "y": 186,
+    "r": 4,
+    "c": "pulley",
+    "l": "back"
+   },
+   {
+    "t": "circle",
+    "x": 126,
+    "y": 176,
+    "r": 3.5,
+    "c": "pulley",
+    "l": "back"
+   },
+   {
+    "t": "circle",
+    "x": 176,
+    "y": 158,
+    "r": 3.5,
+    "c": "pulley",
+    "l": "back"
+   },
+   {
+    "t": "circle",
+    "x": 121,
+    "y": 138,
+    "r": 3,
+    "c": "pulley",
+    "l": "back"
+   },
+   {
+    "t": "circle",
+    "x": 8,
+    "y": 9,
+    "r": 3.5,
+    "c": "pulley",
+    "l": "back"
+   },
+   {
+    "t": "line",
+    "a": [
+     12,
+     7
+    ],
+    "b": [
+     152,
+     7
+    ],
+    "w": 0.8,
+    "c": "chrome",
+    "l": "back"
+   },
+   {
+    "t": "circle",
+    "x": 34,
+    "y": 63,
+    "r": 5,
+    "c": "roller",
+    "l": "front"
+   }
+  ]
+ },
+ "front": {
+  "pulleys": {
+   "HP": [
+    0,
+    194
+   ],
+   "LP": [
+    0,
+    9
+   ],
+   "MP": [
+    0,
+    138
+   ]
+  },
+  "pivots": {
+   "PRESS_R": [
+    9,
+    156
+   ],
+   "PRESS_L": [
+    -9,
+    156
+   ]
+  },
+  "stack": null,
+  "shapes": [
+   {
+    "t": "rect",
+    "x": -52,
+    "y": 0,
+    "w": 104,
+    "h": 5,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "rect",
+    "x": -16,
+    "y": 5,
+    "w": 32,
+    "h": 147,
+    "c": "stackbox",
+    "l": "back"
+   },
+   {
+    "t": "rect",
+    "x": -5,
+    "y": 150,
+    "w": 10,
+    "h": 56,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "rrect",
+    "x": -19,
+    "y": 60,
+    "w": 38,
+    "h": 74,
+    "r": 4,
+    "c": "pad",
+    "l": "back"
+   },
+   {
+    "t": "rrect",
+    "x": -22,
+    "y": 50,
+    "w": 44,
+    "h": 8,
+    "r": 3,
+    "c": "pad",
+    "l": "back"
+   },
+   {
+    "t": "rect",
+    "x": -3,
+    "y": 5,
+    "w": 6,
+    "h": 45,
+    "c": "frame",
+    "l": "back"
+   },
+   {
+    "t": "circle",
+    "x": 0,
+    "y": 194,
+    "r": 4,
+    "c": "pulley",
+    "l": "back"
+   },
+   {
+    "t": "rrect",
+    "x": -22,
+    "y": 52,
+    "w": 44,
+    "h": 9,
+    "r": 4,
+    "c": "roller",
+    "l": "front"
+   }
+  ]
+ },
  "exercises": [
   {
    "id": "chest_press",
@@ -15,8 +447,8 @@
    ],
    "setup": [
     "Sit with your back flat against the backrest.",
-    "Set the seat so the handles are level with the middle of your chest.",
-    "Hook your feet behind the lower rollers or keep them flat."
+    "Take the hook handles at the bottom of the press arms; they should be level with the middle of your chest.",
+    "Feet flat on the floor."
    ],
    "steps": [
     "Grip the handles, elbows slightly below your shoulders.",
@@ -34,25 +466,37 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -82,
-     "th": 180,
-     "sh": 90,
-     "ua": 15,
-     "fa": 180
+     "hx": 85,
+     "hy": 65,
+     "torso": 76.5,
+     "th": 185,
+     "sh": 270,
+     "face": -1,
+     "ua": -35,
+     "fa": 185
     },
     "end": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -82,
-     "th": 180,
-     "sh": 90,
-     "ua": 176,
-     "fa": 178
+     "hx": 85,
+     "hy": 65,
+     "torso": 76.5,
+     "th": 185,
+     "sh": 270,
+     "face": -1,
+     "ua": 184,
+     "fa": 181
     },
-    "lever": "PRESS",
-    "attach": "hands"
+    "parts": [
+     "press"
+    ],
+    "work": [
+     "torso",
+     "ua"
+    ],
+    "travel": 28,
+    "captions": {
+     "lift": "Push the handles forward",
+     "lower": "Let them come back slowly"
+    }
    }
   },
   {
@@ -68,8 +512,7 @@
    ],
    "setup": [
     "Sit with your back against the backrest.",
-    "Set the seat so your upper arms are level with your shoulders when your forearms are on the pads.",
-    "Elbows bent about 90°, forearms flat against the pads."
+    "Put your forearms flat against the upright pads of the press arms, elbows bent about 90° and level with your shoulders."
    ],
    "steps": [
     "Squeeze the pads together in front of your chest, leading with your elbows.",
@@ -87,28 +530,40 @@
    "anim": {
     "view": "front",
     "start": {
-     "hx": 50,
-     "hy": 61,
-     "torso": -90,
-     "th": 90,
-     "ths": 0.25,
-     "sh": 90,
+     "hx": 0,
+     "hy": 65,
+     "torso": 90,
+     "ths": 0.15,
+     "shs": 1.0,
+     "kx": 4,
      "ua": 0,
-     "fa": -90,
+     "fa": 90,
      "uas": 1.0
     },
     "end": {
-     "hx": 50,
-     "hy": 61,
-     "torso": -90,
-     "th": 90,
-     "ths": 0.25,
-     "sh": 90,
+     "hx": 0,
+     "hy": 65,
+     "torso": 90,
+     "ths": 0.15,
+     "shs": 1.0,
+     "kx": 4,
      "ua": 0,
-     "fa": -90,
-     "uas": 0.18
+     "fa": 90,
+     "uas": 0.22
     },
-    "pads": true
+    "parts": [
+     "pads"
+    ],
+    "work": [
+     "torso",
+     "ua"
+    ],
+    "travel": 24,
+    "attach": "hands",
+    "captions": {
+     "lift": "Squeeze the pads together",
+     "lower": "Open slowly"
+    }
    }
   },
   {
@@ -142,28 +597,39 @@
    "anim": {
     "view": "front",
     "start": {
-     "hx": 50,
-     "hy": 61,
-     "torso": -90,
-     "th": 90,
-     "ths": 0.25,
-     "sh": 90,
+     "hx": 0,
+     "hy": 65,
+     "torso": 90,
+     "ths": 0.15,
+     "shs": 1.0,
+     "kx": 4,
      "ua": 0,
-     "fa": -90,
-     "uas": 0.18
+     "fa": 90,
+     "uas": 0.22
     },
     "end": {
-     "hx": 50,
-     "hy": 61,
-     "torso": -90,
-     "th": 90,
-     "ths": 0.25,
-     "sh": 90,
+     "hx": 0,
+     "hy": 65,
+     "torso": 90,
+     "ths": 0.15,
+     "shs": 1.0,
+     "kx": 4,
      "ua": 0,
-     "fa": -90,
+     "fa": 90,
      "uas": 1.0
     },
-    "pads": true
+    "parts": [
+     "pads"
+    ],
+    "work": [
+     "ua",
+     "torso"
+    ],
+    "travel": 20,
+    "captions": {
+     "lift": "Push the pads back and out",
+     "lower": "Bring them in slowly"
+    }
    }
   },
   {
@@ -179,8 +645,8 @@
     "Rear shoulders"
    ],
    "setup": [
-    "Sit facing the front with your knees under the upper rollers.",
-    "Reach up and take the lat bar with a wide overhand grip."
+    "Stand and take the lat bar with a wide overhand grip, then sit on the seat facing the front with the bar.",
+    "Feet flat on the floor, chest up."
    ],
    "steps": [
     "Pull the bar down in front of you to the top of your chest.",
@@ -198,27 +664,39 @@
    "anim": {
     "view": "front",
     "start": {
-     "hx": 50,
-     "hy": 61,
-     "torso": -90,
-     "th": 90,
-     "ths": 0.25,
-     "sh": 90,
-     "ua": -58,
-     "fa": -82
+     "hx": 0,
+     "hy": 65,
+     "torso": 90,
+     "ths": 0.15,
+     "shs": 1.0,
+     "kx": 4,
+     "ua": 52,
+     "fa": 86
     },
     "end": {
-     "hx": 50,
-     "hy": 61,
-     "torso": -90,
-     "th": 90,
-     "ths": 0.25,
-     "sh": 90,
-     "ua": 28,
-     "fa": -96
+     "hx": 0,
+     "hy": 65,
+     "torso": 90,
+     "ths": 0.15,
+     "shs": 1.0,
+     "kx": 4,
+     "ua": -28,
+     "fa": 96
     },
     "cable": "HP",
-    "bar": true
+    "parts": [
+     "bar"
+    ],
+    "barw": 118,
+    "work": [
+     "torso",
+     "ua"
+    ],
+    "travel": 40,
+    "captions": {
+     "lift": "Pull the bar down to your chest",
+     "lower": "Let it rise slowly"
+    }
    }
   },
   {
@@ -233,8 +711,8 @@
     "Biceps"
    ],
    "setup": [
-    "Sit facing the front with your knees under the upper rollers.",
-    "Take the middle of the lat bar with an underhand grip, hands shoulder-width or closer."
+    "Take the middle of the lat bar underhand, hands shoulder-width or closer, and sit on the seat facing the front.",
+    "Feet flat on the floor."
    ],
    "steps": [
     "Pull the bar down to your upper chest, elbows tight to your sides.",
@@ -251,25 +729,38 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -95,
-     "th": 180,
-     "sh": 90,
-     "ua": -118,
-     "fa": -115
+     "hx": 85,
+     "hy": 65,
+     "torso": 80,
+     "th": 185,
+     "sh": 270,
+     "face": -1,
+     "ua": 113,
+     "fa": 110
     },
     "end": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -84,
-     "th": 180,
-     "sh": 90,
-     "ua": 62,
-     "fa": -115
+     "hx": 85,
+     "hy": 65,
+     "torso": 76,
+     "th": 185,
+     "sh": 270,
+     "face": -1,
+     "ua": 262,
+     "fa": 112
     },
     "cable": "HP",
-    "attach": "hands"
+    "parts": [
+     "bar"
+    ],
+    "work": [
+     "torso",
+     "ua"
+    ],
+    "travel": 40,
+    "captions": {
+     "lift": "Pull the bar to your upper chest",
+     "lower": "Arms up slowly"
+    }
    }
   },
   {
@@ -285,9 +776,8 @@
     "Core"
    ],
    "setup": [
-    "Stand facing the machine under the lat bar.",
-    "Take the bar shoulder-width, arms straight and in front of you at eye level.",
-    "Hinge slightly at the hips."
+    "Stand in front of the machine, facing it, a step back from the front post.",
+    "Take the lat bar shoulder-width with straight arms at about eye level; lean forward slightly."
    ],
    "steps": [
     "Keeping your arms straight, sweep the bar down to your thighs.",
@@ -304,25 +794,38 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 44,
-     "hy": 63,
-     "torso": -80,
-     "th": 90,
-     "sh": 90,
-     "ua": -25,
-     "fa": -25
+     "hx": -10,
+     "hy": 93,
+     "torso": 84,
+     "th": 268,
+     "sh": 270,
+     "face": 1,
+     "ua": 30,
+     "fa": 30
     },
     "end": {
-     "hx": 44,
-     "hy": 63,
-     "torso": -80,
-     "th": 90,
-     "sh": 90,
-     "ua": 80,
-     "fa": 80
+     "hx": -10,
+     "hy": 93,
+     "torso": 84,
+     "th": 268,
+     "sh": 270,
+     "face": 1,
+     "ua": -80,
+     "fa": -80
     },
     "cable": "HP",
-    "attach": "hands"
+    "parts": [
+     "bar"
+    ],
+    "work": [
+     "torso",
+     "ua"
+    ],
+    "travel": 30,
+    "captions": {
+     "lift": "Sweep the bar down to your thighs",
+     "lower": "Back up to eye level"
+    }
    }
   },
   {
@@ -335,9 +838,8 @@
    ],
    "secondary": [],
    "setup": [
-    "Stand facing the machine under the high pulley.",
-    "Grip the bar overhand, hands about shoulder-width.",
-    "Tuck your elbows to your sides."
+    "Stand in front of the machine, facing it, a step back from the front post.",
+    "Take the lat bar overhand, hands about shoulder-width, elbows tucked to your sides."
    ],
    "steps": [
     "Push the bar down until your arms are straight.",
@@ -354,25 +856,38 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 44,
-     "hy": 63,
-     "torso": -86,
-     "th": 90,
-     "sh": 90,
-     "ua": 85,
-     "fa": -15
+     "hx": -10,
+     "hy": 93,
+     "torso": 84,
+     "th": 268,
+     "sh": 270,
+     "face": 1,
+     "ua": -82,
+     "fa": 25
     },
     "end": {
-     "hx": 44,
-     "hy": 63,
-     "torso": -86,
-     "th": 90,
-     "sh": 90,
-     "ua": 85,
-     "fa": 88
+     "hx": -10,
+     "hy": 93,
+     "torso": 84,
+     "th": 268,
+     "sh": 270,
+     "face": 1,
+     "ua": -82,
+     "fa": -80
     },
     "cable": "HP",
-    "attach": "hands"
+    "parts": [
+     "bar"
+    ],
+    "work": [
+     "ua",
+     "fa"
+    ],
+    "travel": 22,
+    "captions": {
+     "lift": "Push the bar down",
+     "lower": "Let it come up to chest height"
+    }
    }
   },
   {
@@ -385,8 +900,8 @@
    ],
    "secondary": [],
    "setup": [
-    "Clip the rope to the high pulley.",
-    "Stand facing the machine and hold the rope ends, thumbs up, elbows at your sides."
+    "Clip the rope to the top pulley's cable.",
+    "Stand in front of the machine, facing it, and hold the rope ends with your thumbs up, elbows at your sides."
    ],
    "steps": [
     "Push down and spread the rope ends apart at the bottom.",
@@ -402,25 +917,38 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 44,
-     "hy": 63,
-     "torso": -86,
-     "th": 90,
-     "sh": 90,
-     "ua": 85,
-     "fa": -15
+     "hx": -10,
+     "hy": 93,
+     "torso": 84,
+     "th": 268,
+     "sh": 270,
+     "face": 1,
+     "ua": -82,
+     "fa": 25
     },
     "end": {
-     "hx": 44,
-     "hy": 63,
-     "torso": -86,
-     "th": 90,
-     "sh": 90,
-     "ua": 85,
-     "fa": 92
+     "hx": -10,
+     "hy": 93,
+     "torso": 84,
+     "th": 268,
+     "sh": 270,
+     "face": 1,
+     "ua": -84,
+     "fa": -84
     },
     "cable": "HP",
-    "attach": "hands"
+    "parts": [
+     "rope"
+    ],
+    "work": [
+     "ua",
+     "fa"
+    ],
+    "travel": 22,
+    "captions": {
+     "lift": "Push down, spread the rope",
+     "lower": "Back up slowly"
+    }
    }
   },
   {
@@ -435,8 +963,8 @@
     "Obliques"
    ],
    "setup": [
-    "Clip the rope (or ab harness) to the high pulley.",
-    "Kneel facing the machine and hold the rope beside your head."
+    "Clip the rope or the ab-crunch strap to the top pulley's cable.",
+    "Kneel in front of the machine, facing it, and hold the rope beside your head."
    ],
    "steps": [
     "Curl your chest down towards your knees, rounding your back.",
@@ -453,25 +981,38 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 32,
-     "hy": 79,
-     "torso": -78,
-     "th": 90,
+     "hx": -25,
+     "hy": 48,
+     "th": 270,
      "sh": 180,
-     "ua": -115,
-     "fa": 55
+     "face": 1,
+     "torso": 82,
+     "ua": 32,
+     "fa": 173
     },
     "end": {
-     "hx": 32,
-     "hy": 79,
-     "torso": 6,
-     "th": 90,
+     "hx": -25,
+     "hy": 48,
+     "th": 270,
      "sh": 180,
-     "ua": -45,
-     "fa": 110
+     "face": 1,
+     "torso": 40,
+     "ua": -10,
+     "fa": 131
     },
     "cable": "HP",
-    "attach": "neck"
+    "parts": [
+     "rope"
+    ],
+    "attach": "neck",
+    "work": [
+     "torso"
+    ],
+    "travel": 26,
+    "captions": {
+     "lift": "Curl down towards your knees",
+     "lower": "Uncurl slowly"
+    }
    }
   },
   {
@@ -484,8 +1025,8 @@
    ],
    "secondary": [],
    "setup": [
-    "Clip the rope (or ab harness) to the pulley at the top of the backrest.",
-    "Sit with your back to the backrest and hold the rope ends over your shoulders."
+    "Clip the rope or the ab-crunch strap to the pulley at the top of the backrest.",
+    "Sit with your back on the backrest and hold the ends over your shoulders."
    ],
    "steps": [
     "Curl your chest down and forward towards your knees.",
@@ -503,25 +1044,37 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -82,
-     "th": 180,
-     "sh": 90,
-     "ua": 150,
-     "fa": -30
+     "hx": 85,
+     "hy": 65,
+     "torso": 76.5,
+     "th": 185,
+     "sh": 270,
+     "face": -1,
+     "ua": 225,
+     "fa": 70
     },
     "end": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -140,
-     "th": 180,
-     "sh": 90,
-     "ua": 200,
-     "fa": -60
+     "hx": 85,
+     "hy": 65,
+     "torso": 118,
+     "th": 185,
+     "sh": 270,
+     "face": -1,
+     "ua": 255,
+     "fa": 100
     },
     "cable": "MP",
-    "attach": "hands"
+    "parts": [
+     "rope"
+    ],
+    "work": [
+     "torso"
+    ],
+    "travel": 20,
+    "captions": {
+     "lift": "Curl forward",
+     "lower": "Back to the pad slowly"
+    }
    }
   },
   {
@@ -536,9 +1089,9 @@
     "Forearms"
    ],
    "setup": [
-    "Clip the short bar to the low pulley at the front.",
-    "Sit facing the front with your upper arms resting down the preacher pad.",
-    "Take the bar underhand, arms almost straight."
+    "Clip the short bar to the low pulley's chain at the front of the machine.",
+    "Sit near the front of the seat facing the front, and lean your chest against the top of the preacher pad.",
+    "Rest the backs of your upper arms down the pad and take the bar underhand."
    ],
    "steps": [
     "Curl the bar up towards your shoulders.",
@@ -556,25 +1109,37 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -100,
-     "th": 180,
-     "sh": 90,
-     "ua": 135,
-     "fa": 145
+     "hx": 72,
+     "hy": 65,
+     "torso": 120,
+     "th": 200,
+     "sh": 270,
+     "face": -1,
+     "ua": 212,
+     "fa": 222
     },
     "end": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -100,
-     "th": 180,
-     "sh": 90,
-     "ua": 135,
-     "fa": -95
+     "hx": 72,
+     "hy": 65,
+     "torso": 120,
+     "th": 200,
+     "sh": 270,
+     "face": -1,
+     "ua": 212,
+     "fa": 78
     },
     "cable": "LP",
-    "attach": "hands"
+    "parts": [
+     "bar"
+    ],
+    "work": [
+     "ua"
+    ],
+    "travel": 26,
+    "captions": {
+     "lift": "Curl the bar up",
+     "lower": "Lower it slowly"
+    }
    }
   },
   {
@@ -589,8 +1154,8 @@
     "Forearms"
    ],
    "setup": [
-    "Clip the short bar to the low pulley.",
-    "Stand facing the machine, feet hip-width, bar underhand at your thighs."
+    "Clip the short bar to the low pulley's chain at the front.",
+    "Stand in front of the machine, facing it, close to the pulley; bar underhand at your thighs."
    ],
    "steps": [
     "Curl the bar up to your shoulders, elbows fixed at your sides.",
@@ -606,25 +1171,37 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 26,
-     "hy": 63,
-     "torso": -90,
-     "th": 90,
-     "sh": 90,
-     "ua": 88,
-     "fa": 82
+     "hx": -22,
+     "hy": 93,
+     "torso": 88,
+     "th": 270,
+     "sh": 270,
+     "face": 1,
+     "ua": 268,
+     "fa": 282
     },
     "end": {
-     "hx": 26,
-     "hy": 63,
-     "torso": -90,
-     "th": 90,
-     "sh": 90,
-     "ua": 95,
-     "fa": -65
+     "hx": -22,
+     "hy": 93,
+     "torso": 88,
+     "th": 270,
+     "sh": 270,
+     "face": 1,
+     "ua": 266,
+     "fa": 104
     },
     "cable": "LP",
-    "attach": "hands"
+    "parts": [
+     "bar"
+    ],
+    "work": [
+     "ua"
+    ],
+    "travel": 26,
+    "captions": {
+     "lift": "Curl the bar up",
+     "lower": "Lower it slowly"
+    }
    }
   },
   {
@@ -640,8 +1217,8 @@
     "Biceps"
    ],
    "setup": [
-    "Clip the short bar to the low pulley.",
-    "Stand facing the machine, holding the bar overhand at your thighs, hands a bit narrower than shoulder-width."
+    "Clip the short bar to the low pulley's chain at the front.",
+    "Stand in front of the machine, facing it, bar overhand at your thighs, hands a bit narrower than shoulder-width."
    ],
    "steps": [
     "Pull the bar straight up close to your body until your elbows are at shoulder height.",
@@ -657,26 +1234,40 @@
    "anim": {
     "view": "front",
     "start": {
-     "hx": 50,
-     "hy": 63,
-     "torso": -90,
-     "th": 92,
-     "sh": 90,
-     "ua": 100,
-     "fa": 95
+     "hx": 0,
+     "hy": 93,
+     "torso": 90,
+     "ths": 1.0,
+     "shs": 1.0,
+     "kx": 1,
+     "ua": -95,
+     "fa": -100
     },
     "end": {
-     "hx": 50,
-     "hy": 63,
-     "torso": -90,
-     "th": 92,
-     "sh": 90,
-     "ua": -12,
-     "fa": 186
+     "hx": 0,
+     "hy": 93,
+     "torso": 90,
+     "ths": 1.0,
+     "shs": 1.0,
+     "kx": 1,
+     "ua": 15,
+     "fa": 200
     },
     "cable": "LP",
-    "bar": true,
-    "barw": 10
+    "parts": [
+     "bar"
+    ],
+    "barw": 44,
+    "infront": true,
+    "work": [
+     "ua",
+     "torso"
+    ],
+    "travel": 34,
+    "captions": {
+     "lift": "Pull the bar up, elbows high",
+     "lower": "Lower slowly"
+    }
    }
   },
   {
@@ -689,8 +1280,8 @@
    ],
    "secondary": [],
    "setup": [
-    "Clip the short bar to the low pulley.",
-    "Stand facing the machine with the bar at your thighs, arms straight."
+    "Clip the short bar to the low pulley's chain at the front.",
+    "Stand in front of the machine, facing it, bar at your thighs, arms straight."
    ],
    "steps": [
     "Lift your shoulders straight up towards your ears.",
@@ -707,27 +1298,40 @@
    "anim": {
     "view": "front",
     "start": {
-     "hx": 50,
-     "hy": 63,
-     "torso": -90,
-     "th": 92,
-     "sh": 90,
-     "ua": 96,
-     "fa": 92
+     "hx": 0,
+     "hy": 93,
+     "torso": 90,
+     "ths": 1.0,
+     "shs": 1.0,
+     "kx": 1,
+     "ua": -92,
+     "fa": -92
     },
     "end": {
-     "hx": 50,
-     "hy": 63,
-     "torso": -90,
-     "th": 92,
-     "sh": 90,
-     "ua": 96,
-     "fa": 92,
-     "sy": -3.5
+     "hx": 0,
+     "hy": 93,
+     "torso": 90,
+     "ths": 1.0,
+     "shs": 1.0,
+     "kx": 1,
+     "ua": -92,
+     "fa": -92,
+     "sy": 7
     },
     "cable": "LP",
-    "bar": true,
-    "barw": 16
+    "parts": [
+     "bar"
+    ],
+    "barw": 56,
+    "infront": true,
+    "work": [
+     "torso"
+    ],
+    "travel": 7,
+    "captions": {
+     "lift": "Shoulders up to your ears",
+     "lower": "Down slowly"
+    }
    }
   },
   {
@@ -744,8 +1348,9 @@
     "Rear shoulders"
    ],
    "setup": [
-    "Clip the short bar to the low pulley at the front.",
-    "Sit on the seat facing the front and take the bar with arms straight."
+    "Clip the short bar to the low pulley's chain at the front.",
+    "Sit on the floor in front of the machine, facing it, feet against the front of the base and knees soft.",
+    "Take the bar with straight arms."
    ],
    "steps": [
     "Pull the bar to your stomach, driving your elbows back.",
@@ -762,25 +1367,38 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -105,
-     "th": 180,
-     "sh": 90,
-     "ua": 150,
-     "fa": 150
+     "hx": -52,
+     "hy": 12,
+     "th": 4,
+     "sh": 354,
+     "face": 1,
+     "torso": 68,
+     "ua": 8,
+     "fa": 6
     },
     "end": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -88,
-     "th": 180,
-     "sh": 90,
-     "ua": 65,
-     "fa": 180
+     "hx": -52,
+     "hy": 12,
+     "th": 4,
+     "sh": 354,
+     "face": 1,
+     "torso": 98,
+     "ua": 255,
+     "fa": 8
     },
     "cable": "LP",
-    "attach": "hands"
+    "parts": [
+     "bar"
+    ],
+    "work": [
+     "torso",
+     "ua"
+    ],
+    "travel": 40,
+    "captions": {
+     "lift": "Pull the bar to your stomach",
+     "lower": "Arms forward slowly"
+    }
    }
   },
   {
@@ -793,7 +1411,7 @@
    ],
    "secondary": [],
    "setup": [
-    "Clip the short bar to the low pulley.",
+    "Clip the short bar to the low pulley's chain at the front.",
     "Stand with your back to the machine, the cable between your feet, bar at your thighs."
    ],
    "steps": [
@@ -810,25 +1428,37 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 22,
-     "hy": 63,
-     "torso": -90,
-     "th": 90,
-     "sh": 90,
-     "ua": 92,
-     "fa": 92
+     "hx": -14,
+     "hy": 93,
+     "torso": 92,
+     "th": 270,
+     "sh": 270,
+     "face": -1,
+     "ua": 264,
+     "fa": 264
     },
     "end": {
-     "hx": 22,
-     "hy": 63,
-     "torso": -90,
-     "th": 90,
-     "sh": 90,
+     "hx": -14,
+     "hy": 93,
+     "torso": 92,
+     "th": 270,
+     "sh": 270,
+     "face": -1,
      "ua": 180,
      "fa": 180
     },
     "cable": "LP",
-    "attach": "hands"
+    "parts": [
+     "bar"
+    ],
+    "work": [
+     "ua"
+    ],
+    "travel": 30,
+    "captions": {
+     "lift": "Raise the bar to shoulder height",
+     "lower": "Lower slowly"
+    }
    }
   },
   {
@@ -841,8 +1471,8 @@
    ],
    "secondary": [],
    "setup": [
-    "Sit on the seat with your back against the backrest.",
-    "Hook your ankles behind the lower roller, knees at the edge of the seat."
+    "Sit with your back against the backrest.",
+    "Hook your ankles behind the lower rollers of the leg lever, knees at the front edge of the seat."
    ],
    "steps": [
     "Straighten your legs until they're level.",
@@ -860,25 +1490,37 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -82,
-     "th": 180,
-     "sh": 90,
-     "ua": 90,
-     "fa": 150
+     "hx": 85,
+     "hy": 65,
+     "torso": 76.5,
+     "th": 185,
+     "sh": 270,
+     "face": -1,
+     "ua": 262,
+     "fa": 230
     },
     "end": {
-     "hx": 64,
-     "hy": 60,
-     "torso": -82,
-     "th": 180,
-     "sh": 176,
-     "ua": 90,
-     "fa": 150
+     "hx": 85,
+     "hy": 65,
+     "torso": 76.5,
+     "th": 185,
+     "sh": 184,
+     "face": -1,
+     "ua": 262,
+     "fa": 230
     },
-    "roller": "ankle",
-    "pivot": "knee"
+    "parts": [
+     "lever"
+    ],
+    "attach": "ankle",
+    "work": [
+     "th"
+    ],
+    "travel": 26,
+    "captions": {
+     "lift": "Straighten your legs",
+     "lower": "Lower slowly"
+    }
    }
   },
   {
@@ -893,8 +1535,8 @@
     "Calves"
    ],
    "setup": [
-    "Stand facing the seat, holding the backrest for balance.",
-    "Put one leg behind the lower roller so it sits just above your heel."
+    "Stand in front of the machine, facing the seat, with the front of your thighs against the upper rollers.",
+    "Hold the preacher pad for balance and put one heel behind the lower roller."
    ],
    "steps": [
     "Curl your heel up towards your bottom.",
@@ -911,29 +1553,41 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 38,
-     "hy": 63,
-     "torso": -88,
-     "th": 92,
-     "sh": 90,
-     "th2": 90,
-     "sh2": 90,
-     "ua": 60,
-     "fa": 10
+     "hx": 19,
+     "hy": 93,
+     "torso": 96,
+     "th": 272,
+     "sh": 270,
+     "th2": 270,
+     "sh2": 270,
+     "face": 1,
+     "ua": -62,
+     "fa": -55
     },
     "end": {
-     "hx": 38,
-     "hy": 63,
-     "torso": -88,
-     "th": 100,
-     "sh": 200,
-     "th2": 90,
-     "sh2": 90,
-     "ua": 60,
-     "fa": 10
+     "hx": 19,
+     "hy": 93,
+     "torso": 96,
+     "th": 262,
+     "sh": 150,
+     "th2": 270,
+     "sh2": 270,
+     "face": 1,
+     "ua": -62,
+     "fa": -55
     },
-    "roller": "ankle",
-    "pivot": "knee"
+    "parts": [
+     "heel"
+    ],
+    "attach": "ankle",
+    "work": [
+     "th"
+    ],
+    "travel": 22,
+    "captions": {
+     "lift": "Curl your heel up",
+     "lower": "Lower slowly"
+    }
    }
   },
   {
@@ -949,7 +1603,7 @@
    ],
    "setup": [
     "Lie on your back on the floor in front of the machine.",
-    "Bend your knees and hook your feet under the lower leg roller.",
+    "Bend your knees and hook your feet under the lower rollers of the leg lever.",
     "Cross your arms on your chest."
    ],
    "steps": [
@@ -967,22 +1621,33 @@
    "anim": {
     "view": "side",
     "start": {
-     "hx": 30,
-     "hy": 92,
+     "hx": -5,
+     "hy": 12,
      "torso": 180,
-     "th": -56,
-     "sh": 41,
-     "ua": 150,
-     "fa": -40
+     "th": 52,
+     "sh": -60,
+     "face": 1,
+     "ua": 200,
+     "fa": 20
     },
     "end": {
-     "hx": 30,
-     "hy": 92,
-     "torso": -62,
-     "th": -56,
-     "sh": 41,
-     "ua": 40,
-     "fa": -110
+     "hx": -5,
+     "hy": 12,
+     "torso": 62,
+     "th": 52,
+     "sh": -60,
+     "face": 1,
+     "ua": -80,
+     "fa": 150
+    },
+    "attach": "hands",
+    "work": [
+     "torso"
+    ],
+    "travel": 0,
+    "captions": {
+     "lift": "Curl up",
+     "lower": "Lower yourself slowly"
     }
    }
   }
