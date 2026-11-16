@@ -14,3 +14,5 @@ captures/
 *.jks.base64.txt
 __pycache__/
 *.pyc
+tools/animations/3d/out/
+tools/animations/3d/preview/

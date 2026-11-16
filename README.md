@@ -2,7 +2,7 @@
 
 An Android training app for the **Ironman IM-309** single-station home multi gym.
 
-- Every exercise the machine can do, by station, with setup, steps, tips and a built-in animation of it on the machine (and a small link to YouTube)
+- Every exercise the machine can do, by station, with setup, steps, tips and a built-in 3D animation of it on the machine (and a small link to YouTube)
 - Ready-made plans for the IM-309, and your own
 - Workout mode: the pin to use and its weight, a rest timer, one-tap logging
 - Progress per exercise with charts and personal bests; suggests the next pin when you hit your reps
@@ -11,12 +11,15 @@ An Android training app for the **Ironman IM-309** single-station home multi gym
 
 ## The exercises and animations
 
-`app/src/main/assets/exercises.json` is made by `tools/animations/exercises.py`. `tools/animations/render.py` draws every animation's start, middle and end on the machine for checking:
+`app/src/main/assets/exercises.json` (setup, steps, muscles, captions) is made by `tools/animations/exercises.py`.
+
+The animations are a 3D person on a 3D IM-309, to scale, rendered in `tools/animations/3d` (numpy, scikit-image, OpenCV): the body is smooth shapes with its muscles, the worked ones in red (main) and orange (also). Each exercise is 13 frames from start to end, in `app/src/main/assets/anim3d/<id>/`, which the app plays forwards and back:
 
 ```
-cd tools/animations
-python3 exercises.py && cp exercises.json ../../app/src/main/assets/
-python3 render.py exercises.json /tmp/sheet.png
+cd tools/animations/3d
+python3 exercises3d.py --preview chest_press   # start, middle, end in preview/
+python3 exercises3d.py                         # every frame of every exercise in out/
+python3 pack.py                                # out/ → the app's assets as WebP
 ```
 
 ## Building

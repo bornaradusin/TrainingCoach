@@ -79,5 +79,13 @@ T['sit_up']['setup'] = ["Lie on your back on the floor in front of the machine."
 T['chest_press']['setup'] = ["Sit with your back flat against the backrest.", "Take the hook handles at the bottom of the press arms; they should be level with the middle of your chest.", "Feet flat on the floor."]
 T['butterfly']['setup'] = ["Sit with your back against the backrest.", "Put your forearms flat against the upright pads of the press arms, elbows bent about 90° and level with your shoulders."]
 from machine import SIDE, FRONT
+from muscles import NAMES
+# The muscles drawn on the person: the exercise's own list (main) and its 'secondary' list (also)
+SEEN_FROM_BEHIND = {'reverse_butterfly', 'upright_row', 'shrug'}
+for o in out:
+    a = o['anim']; a.pop('work', None)
+    a['muscles'] = [NAMES[m] for m in o['muscles'] if m in NAMES]
+    a['also'] = [NAMES[m] for m in o['secondary'] if m in NAMES and NAMES[m] not in a['muscles']]
+    if o['id'] in SEEN_FROM_BEHIND: a['seen'] = 'back'
 json.dump(dict(machine="Ironman IM-309", side=SIDE, front=FRONT, exercises=out), open(ASSET, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
 print(len(out))

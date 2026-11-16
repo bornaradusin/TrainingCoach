@@ -32,7 +32,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import io.github.bornaradusin.trainingcoach.R
@@ -101,7 +105,17 @@ fun ExerciseScreen(id: String, nav: Nav) {
                 AssistChip({}, { Text(ex.attachment) })
                 AssistChip({}, { Text("${ex.reps} reps" + if (ex.unilateral) " each side" else "") })
             }
-            Text("Works: " + ex.muscles.joinToString(", ") + if (ex.secondary.isNotEmpty()) " (also ${ex.secondary.joinToString(", ")})" else "")
+            // The same colours as the muscles in the animation
+            Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Text(buildAnnotatedString {
+                    withStyle(SpanStyle(color = Color(212, 48, 30))) { append("● ") }
+                    append("Works: " + ex.muscles.joinToString(", "))
+                })
+                if (ex.secondary.isNotEmpty()) Text(buildAnnotatedString {
+                    withStyle(SpanStyle(color = Color(240, 132, 66))) { append("● ") }
+                    append("Also: " + ex.secondary.joinToString(", "))
+                })
+            }
             Section("Setting up") { ex.setup.forEachIndexed { i, s -> Text("${i + 1}. $s") } }
             Section("How to do it") { ex.steps.forEachIndexed { i, s -> Text("${i + 1}. $s") } }
             if (ex.tips.isNotEmpty()) Section("Tips") { ex.tips.forEach { Text("• $it") } }

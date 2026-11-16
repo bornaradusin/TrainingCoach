@@ -44,8 +44,12 @@ data class Anim(
     val attach: String = "hands",
     /** Moving machine parts to draw: press, pads, bar, rope, lever, heel. */
     val parts: List<String> = emptyList(),
-    /** Body parts drawn as working: torso, ua, fa, th, sh. */
-    val work: List<String> = emptyList(),
+    /** The muscles drawn as working (anim/Muscles.kt), strongly … */
+    val muscles: List<String> = emptyList(),
+    /** … and lighter for the ones that also work. */
+    val also: List<String> = emptyList(),
+    /** Front view: front (the person faces you) or back (they face the machine). */
+    val seen: String = "front",
     /** How far (cm) the lifted plates rise. */
     val travel: Float = 25f,
     val barw: Float = 60f,
