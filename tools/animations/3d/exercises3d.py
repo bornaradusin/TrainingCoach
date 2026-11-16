@@ -26,7 +26,6 @@ STAND_LP = dict(hx=-22, hy=93, torso=88, th=270, sh=270, face=1, th_b=4)
 FLOOR = dict(hx=-52, hy=12, th=4, sh=354, face=1, th_b=10)
 STAND_OUT = dict(hx=-14, hy=93, torso=92, th=270, sh=270, face=-1, th_b=5)
 CURL = dict(hx=19, hy=93, torso=96, th=272, sh=270, th2=270, sh2=270, face=1, ua=-62, fa=-55, ua_b=14, fa_b=-6)
-REAR = dict(hx=86, hy=64, torso=79, face=1, th=-12, th_b=34, sh=272, sh_b=-6)
 
 HP, LP, MP, BEAM = v(73, 186, 0), v(8, 9, 0), v(121, 138, 0), v(176, 158, 0)
 FRONT, SIDE, BACK, FACING = -35, -20, -70, 35   # camera from: front-quarter, side, more from the front (sees the back of someone facing the machine)
@@ -34,7 +33,7 @@ FRONT, SIDE, BACK, FACING = -35, -20, -70, 35   # camera from: front-quarter, si
 E = {}
 E['chest_press'] = dict(s=P(SEAT, ua=-35, fa=185, ua_b=28, fa_b=-8), e=P(SEAT, ua=184, fa=181, ua_b=10, fa_b=-4), press=True, travel=28)
 E['butterfly'] = dict(s=P(SEAT, ua_v=(-0.25, 0.02, 1), fa_v=(0, 1, 0)), e=P(SEAT, ua_v=(1, 0.02, 0.18), fa_v=(0, 1, 0)), pads=True, travel=24, cam=-55)
-E['reverse_butterfly'] = dict(s=P(REAR, ua_v=(1, 0.05, 0.25), fa_v=(0.2, 1, 0)), e=P(REAR, ua_v=(-0.1, 0.05, 1), fa_v=(0, 1, 0)), pads=True, travel=20, cam=-75)
+E['face_pull'] = dict(s=P(STAND_IN, ha_t=(50, 16, 8), el_hint=(0, -0.4, 1)), e=P(STAND_IN, torso=86, ha_t=(7, 13, 19), el_hint=(-0.9, 0.15, 1)), cable=HP, rope=True, travel=25, cam=-50)
 E['lat_pulldown'] = dict(s=P(SEAT, ua_v=(0.35, 1, 0.55), fa_v=(0.2, 1, 0.25)), e=P(SEAT, ua_v=(-0.35, -1, 0.8), fa_v=(0.3, 1, -0.15)), cable=HP, bar=118, travel=40, cam=-55)
 E['close_grip_pulldown'] = dict(s=P(SEAT, torso=80, ua=113, fa=110, ua_b=12, fa_b=-12), e=P(SEAT, torso=76, ua=262, fa=112, ua_b=14, fa_b=-14), cable=HP, bar=118, travel=40)
 E['straight_arm_pulldown'] = dict(s=P(STAND_IN, ua=30, fa=30, ua_b=14, fa_b=0), e=P(STAND_IN, ua=-80, fa=-80, ua_b=10, fa_b=0), cable=HP, bar=60, travel=30, cam=FACING)

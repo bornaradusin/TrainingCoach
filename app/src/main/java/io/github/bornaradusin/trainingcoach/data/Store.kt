@@ -30,7 +30,10 @@ class Store(context: Context) {
     val data: StateFlow<Data> = _data.asStateFlow()
 
     private fun load(): Data =
-        runCatching { json.decodeFromString(Data.serializer(), file.readText()) }.getOrNull() ?: Data(activePlan = "beginner")
+        runCatching { json.decodeFromString(Data.serializer(), migrate(file.readText())) }.getOrNull() ?: Data(activePlan = "beginner")
+
+    /** Exercises that were replaced: the reverse butterfly can't be done on the IM-309 (its press arms only swing forward). */
+    private fun migrate(text: String) = text.replace("\"reverse_butterfly\"", "\"face_pull\"")
 
     private fun update(change: (Data) -> Data): Data = synchronized(lock) {
         val next = change(_data.value)

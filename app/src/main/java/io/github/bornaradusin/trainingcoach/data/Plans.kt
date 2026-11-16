@@ -48,7 +48,7 @@ object BuiltInPlans {
                 )),
                 PlanDay("Upper 2", listOf(
                     i("butterfly", 4, 10, 12), i("close_grip_pulldown", 4, 8, 12, 120), i("straight_arm_pulldown", 3, 12, 15, 60),
-                    i("reverse_butterfly", 3, 12, 15, 60), i("rope_pushdown", 3, 10, 15, 60), i("standing_curl", 3, 10, 12, 60),
+                    i("face_pull", 3, 12, 15, 60), i("rope_pushdown", 3, 10, 15, 60), i("standing_curl", 3, 10, 12, 60),
                     i("shrug", 3, 12, 15, 60),
                 )),
                 PlanDay("Lower & core 2", listOf(
@@ -68,7 +68,7 @@ object BuiltInPlans {
                 )),
                 PlanDay("Pull", listOf(
                     i("lat_pulldown", 4, 8, 12, 120), i("seated_row", 3, 8, 12), i("close_grip_pulldown", 3, 10, 12),
-                    i("reverse_butterfly", 3, 12, 15, 60), i("shrug", 3, 12, 15, 60), i("preacher_curl", 3, 10, 12, 60),
+                    i("face_pull", 3, 12, 15, 60), i("shrug", 3, 12, 15, 60), i("preacher_curl", 3, 10, 12, 60),
                     i("standing_curl", 2, 10, 12, 60),
                 )),
                 PlanDay("Legs & core", listOf(

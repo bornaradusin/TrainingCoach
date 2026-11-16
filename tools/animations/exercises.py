@@ -1,5 +1,5 @@
-"""Exercise animations for assets/exercises.json (run: python3 exercises.py; check: python3 render.py
-../../app/src/main/assets/exercises.json sheet.png [ids]): to scale in centimetres on the measured IM-309 (machine.py).
+"""assets/exercises.json: the exercises, their setup and steps, muscles and captions (run: python3 exercises.py).
+The 3D animations themselves are in 3d/exercises3d.py. Poses here are in centimetres on the measured IM-309 (machine.py).
 Angles: 0° points to the back of the machine, 90° up, 180° to the front, 270° down."""
 import json, os
 ASSET = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../app/src/main/assets/exercises.json')
@@ -13,8 +13,18 @@ A['chest_press'] = dict(view='side', start=P(SEAT, ua=-35, fa=185), end=P(SEAT, 
     work=['torso', 'ua'], travel=28, captions=dict(lift='Push the handles forward', lower='Let them come back slowly'))
 A['butterfly'] = dict(view='front', start=P(SEATF, ua=0, fa=90, uas=1.0), end=P(SEATF, ua=0, fa=90, uas=0.22), parts=['pads'],
     work=['torso', 'ua'], travel=24, attach='hands', captions=dict(lift='Squeeze the pads together', lower='Open slowly'))
-A['reverse_butterfly'] = dict(view='front', start=P(SEATF, ua=0, fa=90, uas=0.22), end=P(SEATF, ua=0, fa=90, uas=1.0), parts=['pads'],
-    work=['ua', 'torso'], travel=20, captions=dict(lift='Push the pads back and out', lower='Bring them in slowly'))
+# The press arms only swing forward (towards the legs of someone on the seat), so the rear
+# shoulders are done on the top pulley instead of a reverse butterfly
+A['face_pull'] = dict(view='side', start=P(dict(hx=-10, hy=93, torso=84, th=268, sh=270, face=1), ua=40, fa=40),
+    end=P(dict(hx=-10, hy=93, torso=84, th=268, sh=270, face=1), ua=10, fa=160), cable='HP', parts=['rope'],
+    travel=25, captions=dict(lift='Pull the rope to your face', lower='Let your arms go back out slowly'))
+FACE_PULL = dict(id='face_pull', name='Face pull', station='high', attachment='Rope',
+    muscles=['Rear shoulders'], secondary=['Upper back', 'Traps'],
+    setup=["Clip the rope to the top pulley's cable.", "Stand in front of the machine, facing it, a step back from the front post.",
+           "Take the rope ends with your palms facing in, arms stretched out towards the pulley."],
+    steps=["Pull the rope towards your face, elbows high and out to the sides.", "Pull the ends apart beside your ears and squeeze your shoulder blades together.", "Let your arms go back out slowly."],
+    tips=["Use a light weight; the rear shoulders are small muscles.", "Keep your elbows at shoulder height or higher, and don't lean back."],
+    reps='12-15', bodyweight=False, unilateral=False, youtube='Cable face pull rope how to')
 A['lat_pulldown'] = dict(view='front', start=P(SEATF, ua=52, fa=86), end=P(SEATF, ua=-28, fa=96), cable='HP', parts=['bar'], barw=118,
     work=['torso', 'ua'], travel=40, captions=dict(lift='Pull the bar down to your chest', lower='Let it rise slowly'))
 A['close_grip_pulldown'] = dict(view='side', start=P(SEAT, torso=80, ua=113, fa=110), end=P(SEAT, torso=76, ua=262, fa=112), cable='HP', parts=['bar'],
@@ -57,6 +67,7 @@ A['sit_up'] = dict(view='side', start=dict(hx=-5, hy=12, torso=180, th=52, sh=-6
     work=['torso'], travel=0, captions=dict(lift='Curl up', lower='Lower yourself slowly'))
 out = []
 for id_, e in old.items():
+    if id_ == 'reverse_butterfly': id_, e = 'face_pull', FACE_PULL
     e = dict(e); e['anim'] = A[id_]; out.append(e)
 # Setup text that now matches the machine
 T = {o['id']: o for o in out}
@@ -81,7 +92,7 @@ T['butterfly']['setup'] = ["Sit with your back against the backrest.", "Put your
 from machine import SIDE, FRONT
 from muscles import NAMES
 # The muscles drawn on the person: the exercise's own list (main) and its 'secondary' list (also)
-SEEN_FROM_BEHIND = {'reverse_butterfly', 'upright_row', 'shrug'}
+SEEN_FROM_BEHIND = {'upright_row', 'shrug'}
 for o in out:
     a = o['anim']; a.pop('work', None)
     a['muscles'] = [NAMES[m] for m in o['muscles'] if m in NAMES]

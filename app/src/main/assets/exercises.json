@@ -572,72 +572,73 @@
    }
   },
   {
-   "id": "reverse_butterfly",
-   "name": "Reverse butterfly",
-   "station": "press",
-   "attachment": "Press arms, butterfly pads",
+   "id": "face_pull",
+   "name": "Face pull",
+   "station": "high",
+   "attachment": "Rope",
    "muscles": [
     "Rear shoulders"
    ],
    "secondary": [
-    "Upper back"
+    "Upper back",
+    "Traps"
    ],
    "setup": [
-    "Sit facing the backrest, chest against it.",
-    "Reach forward and place the back of your upper arms against the pads, elbows bent."
+    "Clip the rope to the top pulley's cable.",
+    "Stand in front of the machine, facing it, a step back from the front post.",
+    "Take the rope ends with your palms facing in, arms stretched out towards the pulley."
    ],
    "steps": [
-    "Push the pads back and out with your elbows until your arms are in line with your shoulders.",
-    "Squeeze your shoulder blades together.",
-    "Return slowly."
+    "Pull the rope towards your face, elbows high and out to the sides.",
+    "Pull the ends apart beside your ears and squeeze your shoulder blades together.",
+    "Let your arms go back out slowly."
    ],
    "tips": [
     "Use a light weight; the rear shoulders are small muscles.",
-    "Don't shrug your shoulders up."
+    "Keep your elbows at shoulder height or higher, and don't lean back."
    ],
    "reps": "12-15",
    "bodyweight": false,
    "unilateral": false,
-   "youtube": "Reverse butterfly cable machine how to",
+   "youtube": "Cable face pull rope how to",
    "anim": {
-    "view": "front",
+    "view": "side",
     "start": {
-     "hx": 0,
-     "hy": 65,
-     "torso": 90,
-     "ths": 0.15,
-     "shs": 1.0,
-     "kx": 4,
-     "ua": 0,
-     "fa": 90,
-     "uas": 0.22
+     "hx": -10,
+     "hy": 93,
+     "torso": 84,
+     "th": 268,
+     "sh": 270,
+     "face": 1,
+     "ua": 40,
+     "fa": 40
     },
     "end": {
-     "hx": 0,
-     "hy": 65,
-     "torso": 90,
-     "ths": 0.15,
-     "shs": 1.0,
-     "kx": 4,
-     "ua": 0,
-     "fa": 90,
-     "uas": 1.0
+     "hx": -10,
+     "hy": 93,
+     "torso": 84,
+     "th": 268,
+     "sh": 270,
+     "face": 1,
+     "ua": 10,
+     "fa": 160
     },
+    "cable": "HP",
     "parts": [
-     "pads"
+     "rope"
     ],
-    "travel": 20,
+    "travel": 25,
     "captions": {
-     "lift": "Push the pads back and out",
-     "lower": "Bring them in slowly"
+     "lift": "Pull the rope to your face",
+     "lower": "Let your arms go back out slowly"
     },
     "muscles": [
      "rear_delt"
     ],
     "also": [
-     "upper_back"
-    ],
-    "seen": "back"
+     "upper_back",
+     "traps"
+    ]
    }
   },
   {
